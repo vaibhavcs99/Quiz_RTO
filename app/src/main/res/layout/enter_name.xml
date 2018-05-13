@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/road"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".EnterName">
+    <!--Enter name-->
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="162dp"
+        android:elevation="8dp"
+        android:padding="20dp"
+        app:cardBackgroundColor="#ffffff"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="30dp"
+        app:contentPadding="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Enter Your Name "
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </android.support.v7.widget.CardView>
+
+    <!--Name-->
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview2"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="226dp"
+        android:padding="8dp"
+        app:cardBackgroundColor="#ffffff"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="30dp"
+        app:contentPadding="4dp">
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/edit_text"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:hint="Name" />
+
+    </android.support.v7.widget.CardView>
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="212dp"
+        android:background="@drawable/shape"
+        android:text="Next" />
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Quiz RTO</string>
+    <string name="welcome">Welcome To The RTO Test</string>
+    <string name="instruction1">\u25CF Test includes Questions on Traffic Signage and Rules of Traffic</string>
+    <string name="instruction2">\u25CF 8 Questions will be there, You must answer 4 of them correct to Pass the Test</string>
+    <string name="question1">1). You can overtake a Vehicle in front through...</string>
+    <string name="question2">2). This Sign represents...</string>
+    <string name="question3">3). This Sign represents...</string>
+    <string name="question4">4). This Sign represents...</string>
+    <string name="question5">5). A place where parking is not prohibited</string>
+    <string name="question6">6). This Sign represents...</string>
+    <string name="question7">7). Minimum age for receiving learning license of two wheeler is 16, True or False?</string>
+    <string name="question8">8). This Sign represents...</string>
+    <string name="warn1">You can\'t go back at this stage</string>
+</resources>
